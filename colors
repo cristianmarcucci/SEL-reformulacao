@@ -1,0 +1,18 @@
+Colors
+
+main blue: #048ABF
+snd blue: #009BDF
+green: #C9D955
+yellow: #F2CD5C
+orange: #F29B30
+
+#062CCC
+#0665D6
+#048ABF
+#06D2D6
+#06CC98
+
+
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+

@@ -13,10 +13,10 @@
       que são:
     </p>
     <ul style="list-style-type: none">
-      <li style="display: flex">
+      <li style="display: grid; grid-template-columns: 15px 1fr">
         <div
           style="
-            bbackground-color: #0093e9;
+            background-color: #0093e9;
             background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
             border-radius: 64% 36% 53% 47% / 47% 50% 50% 53%;
             width: 15px;
@@ -25,10 +25,10 @@
         ></div>
         <span style="margin-left: 10px">Pagar a DAS em dia</span>
       </li>
-      <li style="display: flex">
+      <li style="display: grid; grid-template-columns: 15px 1fr">
         <div
           style="
-            bbackground-color: #0093e9;
+            background-color: #0093e9;
             background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
             border-radius: 64% 36% 53% 47% / 47% 50% 50% 53%;
             width: 15px;
@@ -37,10 +37,10 @@
         ></div>
         <span style="margin-left: 10px">Entregar anualmente a DASN-SIMEI</span>
       </li>
-      <li style="display: flex">
+      <li style="display: grid; grid-template-columns: 15px 1fr">
         <div
           style="
-            bbackground-color: #0093e9;
+            background-color: #0093e9;
             background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
             border-radius: 64% 36% 53% 47% / 47% 50% 50% 53%;
             width: 15px;
@@ -51,10 +51,10 @@
           >Manter o controle mensal do faturamento
         </span>
       </li>
-      <li style="display: flex">
+      <li style="display: grid; grid-template-columns: 15px 1fr">
         <div
           style="
-            bbackground-color: #0093e9;
+            background-color: #0093e9;
             background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
             border-radius: 64% 36% 53% 47% / 47% 50% 50% 53%;
             width: 15px;
@@ -65,10 +65,10 @@
           >Emitir notas fiscais para pessoas jurídicas</span
         >
       </li>
-      <li style="display: flex">
+      <li style="display: grid; grid-template-columns: 15px 1fr">
         <div
           style="
-            bbackground-color: #0093e9;
+            background-color: #0093e9;
             background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
             border-radius: 64% 36% 53% 47% / 47% 50% 50% 53%;
             width: 15px;
@@ -79,10 +79,10 @@
           >Guardar as notas fiscais de compra e venda</span
         >
       </li>
-      <li style="display: flex">
+      <li style="display: grid; grid-template-columns: 15px 1fr">
         <div
           style="
-            bbackground-color: #0093e9;
+            background-color: #0093e9;
             background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
             border-radius: 64% 36% 53% 47% / 47% 50% 50% 53%;
             width: 15px;
@@ -100,26 +100,50 @@
       mensal obrigatória que o microempreendedor individual precisa pagar para
       obter direitos e benefícios.
     </p>
+    <div
+      style="
+        max-width: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        gap: 10px;
+        align-items: center;
+      "
+    >
+      <img src="img/boleto.svg" alt="Boleto" />
+      <p>
+        <strong
+          >O pagamento do DAS pode ser feito online, por débito automático, ou
+          na rede bancária e casas lotéricas até o dia 20 de cada mês.</strong
+        >
+      </p>
+    </div>
     <p>
       O cálculo do valor do tributo corresponde a 5% do salário mínimo, com
       acréscimo de R$ 1 de Imposto sobre Circulação de Mercadorias e Serviços
       (ICMS), para comércio e indústria, ou de R$ 5 de Imposto sobre Serviços,
       para prestadores de serviços.
     </p>
-    <p>
-      <strong
-        >O pagamento do DAS pode ser feito online, por débito automático, ou na
-        rede bancária e casas lotéricas até o dia 20 de cada mês.</strong
-      >
-      A DAS pode ser emitida no
-      <a
-        target="_blank"
-        rel="external"
-        href="http://www8.receita.fazenda.gov.br/SimplesNacional/Aplicacoes/ATSPO/pgmei.app/Identificacao"
-        style="text-decoration: none; color: #0093e9; font-weight: bold"
-        >Portal do Simples Nacional</a
-      >
-    </p>
+
+    <p>Acesse a Sala Digital e emita a sua DAS-MEI:</p>
+
+    <a
+      style="
+        display: block;
+        margin: auto;
+        text-decoration: none;
+        padding: 1rem;
+        border-radius: 4px;
+        background-color: #0093e9;
+        background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+        color: #fff;
+        font-weight: bolder;
+        width: fit-content;
+      "
+      href=""
+    >
+      Sala Digital
+    </a>
     <h2>Declaração Anual Simplificada (DASN-SIMEI)</h2>
     <p>
       Todo ano, o Microempreendedor Individual deve declarar o valor do
@@ -144,14 +168,36 @@
       que ele tenha seus dados de faturamento organizados para preencher a
       Declaração Anual.
     </p>
-    <p>
-      <a
-        href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/declaracao-anual-de-faturamento/imagem/relatorio_mensal_das_receitas_brutas.doc/@@download/file/RELATORIO_MENSAL_DAS_RECEITAS_BRUTAS.doc"
-        style="text-decoration: none; color: #0093e9; font-weight: bold"
-        >Modelo de relatório mensal</a
-      >
-    </p>
+    <div
+      style="
+        max-width: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        gap: 10px;
+        align-items: center;
+      "
+    >
+      <img src="img/relatorio.svg" alt="Boleto" />
+      <p>
+        <strong
+          >O Sebrae disponibiliza gratuitamente um modelo de relatório mensal:
+          <a
+            style="
+            text-decoration: none;
+              color: #0093e9;
+            "
+            href="https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/declaracao-anual-de-faturamento/imagem/relatorio_mensal_das_receitas_brutas.doc/@@download/file/RELATORIO_MENSAL_DAS_RECEITAS_BRUTAS.doc"
+                        >aqui
+          </a></strong
+        >
+      </p>
+          </div>
+
     <h2>Contratação de funcionário</h2>
+    <p style="text-align: center">
+      <img style="margin: auto" src="img/handshak.svg" alt="Aperto de mão" />
+    </p>
     <p>
       É importante lembrar que o MEI pode ter um empregado ganhando até um
       salário mínimo ou o piso salarial da profissão, com todos os demais
